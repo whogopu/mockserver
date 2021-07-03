@@ -1,0 +1,22 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "Node HTTP mockserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whogopu/mockserver.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "Gopal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whogopu/mockserver/issues"
+  },
+  "homepage": "https://github.com/whogopu/mockserver#readme"
+}
