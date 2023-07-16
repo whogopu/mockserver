@@ -1,0 +1,31 @@
+[
+  '{{repeat(30, 31)}}',
+  {
+    _id: '{{objectId()}}',
+    profileId: '{{index(1)}}',
+    media: {
+      imagePid: '{{integer(2001, 4000)}}',
+      logoPid: '{{integer(4001, 600)}}',
+      image: 'http://placehold.it/320x320',
+      logo: 'http://placehold.it/32x32'
+    },
+    subscriptionDetails: [
+      {
+        clients: [
+          '{{repeat(3)}}', '{{firstName()}}'
+        ],
+        experience: '{{integer(1, 9)}}',
+        status: '{{random("ACTIVE", "INACTIVE")}}',
+        cityId: '{{integer(1, 9)}}',
+        preference: '{{random("S", "L")}}',
+        resCom: 'C',
+        type: 'CRE',
+        expiryDate: '{{integer(1639308942, 1670844950)}}',
+        activationTime: '{{integer(1639308942, 1670844950)}}',
+        purchasedTime: '{{integer(1639308942, 1670844950)}}',
+        active: '{{random("Y", "N")}}',
+        id: '{{integer(8001, 9000)}}'
+      }
+    ]
+  }
+]

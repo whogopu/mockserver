@@ -1,0 +1,16 @@
+[
+    {
+        "id": "3_LOCATION",
+        "label": "South Delhi",
+        "children": [],
+        "mmiVisible": false,
+        "localityMappedAsZone": false
+    },
+    {
+        "id": "4_LOCATION",
+        "label": "East Delhi",
+        "children": [],
+        "mmiVisible": false,
+        "localityMappedAsZone": false
+    }
+]

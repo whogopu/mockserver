@@ -1,0 +1,17 @@
+
+> mockserver@1.0.0 start /home/gopal/projects/my/mockserver
+> export NODE_OPTIONS=--max_old_space_size=16384 && node index.js
+
+Added listener on port 8080
+GET http://localhost:8080/my/url/*  (static)
+GET http://localhost:8080/my/other/url  (dynamic)
+GET http://localhost:8080/seller-aggregator/my99/listing/getAll*  (static)
+GET http://localhost:8080/discovery-aggregator/srpRes  (static)
+GET http://localhost:8080/discovery-aggregator/srpConfig*  (static)
+GET http://localhost:8080/pms  (static)
+GET http://localhost:8080/seller  (static)
+GET http://localhost:8080/location  (static)
+GET http://localhost:8080/seller-profile-service/sellers/profile-search  (dynamic)
+GET http://localhost:8080/seller-profile-service/seller/seller-info  (dynamic)
+GET http://localhost:8080/srp/search  (dynamic)
+GET http://localhost:8080/pagespeedonline/v5/runPagespeed  (dynamic)

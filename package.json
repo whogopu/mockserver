@@ -1,0 +1,31 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "Node HTTP mockserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_OPTIONS=--max_old_space_size=16384 && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whogopu/mockserver.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "dependencies": {
+    "@nnshared/nn-private": "^2.0.0",
+    "http-mockserver": "^2.5.2"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
+  "author": "Gopal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whogopu/mockserver/issues"
+  },
+  "homepage": "https://github.com/whogopu/mockserver#readme"
+}
